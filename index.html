@@ -1,5 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Eric Mahoney</title></head>
-	<body><h1>Hello World!</h1></body>
+	<head>
+		<title>Eric Mahoney</title>
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+			<a class="navbar-brand" href="#" onClick="home()">Eric Mahoney</a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#" class="nav-link" onClick="aboutMe()">About Me</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" onClick="projects()">Projects</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" onClick="coursework()">Coursework</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" onClick="socialLinks()">Social Links</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="main-container">
+			<div id="welcome-message">
+				<h1>Hello, my name is Eric Mahoney.</h1>
+				<h2>I'm an IT major at <a href="https://www2.gmu.edu/">George Mason University</a>, passionate about Web Development.</h2>
+			</div>
+			<div id="about-me">
+				<h1>About Me:</h1>
+				<p>My name is Eric, I'm 20 years old, and I'm an aspiring web developer. I've been interested in computers for as long as I can remember. Even as a little boy, I've always loved building them, taking them apart, modding video games, and recently: programming.</p>
+				<p>Currently, I study Information Technology at George Mason University with a concentration in Cyber Security. However, my main passion lies in Web Development and programming.</p>
+				<p>In my free-time, I love to run. Earlier in the year, my sister and I ran our first 5K and I fell in love with it. Currently, I run over 10 miles a week and I plan to start training for the DC Marathon soon!</p>
+				<p>I'm also an avid follower of Soccer (Manchester City), Football (NY Giants), and I love listening to EDM.</p>
+			</div>
+			<div id="projects"><h1>Projects:</h1></div>
+			<div id="coursework"><h1>Coursework:</h1></div>
+			<div id="social-links"><h1>Social Links:</h1>
+				<a href="https://www.linkedin.com/in/eric-mahoney-07a79515a/"><img src="linkedin.svg" class="icons"></a>
+				<a href="https://codepen.io/ericmahoney/"><img src="codepen.svg" class="icons"></a>
+				<a href="https://github.com/eric-mahoney"><img src="github.svg" class="icons"></a>
+				<a href="https://instagram.com/mahoney.eric"><img src="instagram.svg" class="icons"></a>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+		<script src="jquery-3.3.1.js"></script>
+	</body>
 </html>
