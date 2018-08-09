@@ -42,6 +42,15 @@ a:hover {
 }
 
 .icons:hover{
-	width: 60px;
-	height: 60px;
+	animation-name: icon-animation;
+	animation-duration: .2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes icon-animation{
+	100%{
+		width: 60px;
+		height: 60px;
+		border-bottom: 2px solid black;
+	}
 }
