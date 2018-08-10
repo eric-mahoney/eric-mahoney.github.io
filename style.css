@@ -62,8 +62,14 @@ a:hover {
 }
 
 #es-img {
-	box-shadow: -7px 5px 2px rgba(0,0,0,0.3);
 	margin-bottom: 2%;
-	width: 65vw;
+	margin-top: 0;
+	width: 60vw;
 	border-radius: 1%;
+	box-shadow: -7px 5px 2px rgba(0,0,0,0.3);
+}
+
+#profile-pic{
+	border-radius: 50%;
+	margin-bottom: 3%;
 }
