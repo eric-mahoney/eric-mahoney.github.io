@@ -18,7 +18,7 @@ function hideDivs(){
 	projectsVar.hide();
 	courseworkVar.hide();
 	socialLinksVar.hide();
-}
+};
 
 // creates currentDiv variable as homepage
 // - this variable we will use to keep track of which div we need to fade upon the click of another link
