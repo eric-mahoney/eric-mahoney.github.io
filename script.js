@@ -1,12 +1,28 @@
-// hides the functions that are not currently on the screen
-var welcomeVar = $('#welcome-message');
-var aboutVar = $('#about-me').hide();
-var projectsVar = $('#projects').hide();
-var courseworkVar = $('#coursework').hide();
-var socialLinksVar = $('#social-links').hide();
+/*
+name: Eric Mahoney
+date: 08/09/18
+desc: supporting javascript [jQuery] for my personal portfolio site
+ */
 
-// sets current div as the welcome message
-var currentDiv = $('#welcome-message');
+// gives the divs each a variable:
+var welcomeVar = $('#welcome-div');
+var aboutVar = $('#about-div');
+var projectsVar = $('#projects-div');
+var courseworkVar = $('#coursework-div');
+var socialLinksVar = $('#social-div');
+
+
+// creates a function that hides all of the divs that are not currently on the screen
+function hideDivs(){
+	aboutVar.hide();
+	projectsVar.hide();
+	courseworkVar.hide();
+	socialLinksVar.hide();
+}
+
+// creates currentDiv variable as homepage
+// - this variable we will use to keep track of which div we need to fade upon the click of another link
+var currentDiv = welcomeVar;
 
 // replaces the current div with the welcome-message div
 function home(){
@@ -14,41 +30,52 @@ function home(){
 		$(this).replaceWith(welcomeVar);
 		$(welcomeVar).fadeIn('slow');
 	});
-	currentDiv = $('#welcome-message');
+
+	// updates variable
+	currentDiv = welcomeVar;
 };
 
-// replaces the current div with the about-me div
+// replaces current div with about-me div onclick of navbar link
 function aboutMe(){
-	$(currentDiv).fadeOut("slow", function(){
+	$(currentDiv).fadeOut('slow',function(){
 		$(this).replaceWith(aboutVar);
 		$(aboutVar).fadeIn('slow');
 	});
-	currentDiv = $('#about-me');
-};
 
-// replaces the current div with the projects div
+	// updates variable
+	currentDiv = aboutVar;
+}
+
+// replaces current div with projects div onclick of navbar link
 function projects(){
-	$(currentDiv).fadeOut("slow", function(){
+	$(currentDiv).fadeOut('slow',function(){
 		$(this).replaceWith(projectsVar);
 		$(projectsVar).fadeIn('slow');
 	});
-	currentDiv = $('#projects');
+
+	// updates variable
+	currentDiv = projectsVar;
 }
 
-// replaces the current div with the coursework div
+// replaces current div with coursework div onclick of navbar link
 function coursework(){
-	$(currentDiv).fadeOut("slow", function(){
+	$(currentDiv).fadeOut('slow',function(){
 		$(this).replaceWith(courseworkVar);
 		$(courseworkVar).fadeIn('slow');
 	});
-	currentDiv = $('#coursework');
+
+	// updates variable
+	currentDiv = courseworkVar;
 }
 
-// replaces the current div with the social-links div
+
+// replaces current div with social-links div onclick of navbar link
 function socialLinks(){
-	$(currentDiv).fadeOut("slow", function(){
+	$(currentDiv).fadeOut('slow',function(){
 		$(this).replaceWith(socialLinksVar);
 		$(socialLinksVar).fadeIn('slow');
 	});
-	currentDiv = $('#social-links');
+	currentDiv = socialLinksVar;
 }
+
+hideDivs();
