@@ -62,7 +62,8 @@ a:hover {
 }
 
 #es-img {
-	box-shadow: -5px 5px 2px rgba(0,0,0,0.5);
+	box-shadow: -7px 5px 2px rgba(0,0,0,0.3);
 	margin-bottom: 2%;
 	width: 65vw;
+	border-radius: 1%;
 }
