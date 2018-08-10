@@ -23,16 +23,13 @@ a, a:active, a:visited {
 	text-decoration: underline;
 	color: black;
 }
+
 a:hover {
 	color: grey;
 }
 
 .navbar-nav .collapse {
 	text-align: center;
-}
-
-#about-div {
-	width: 60vw;
 }
 
 .icons {
@@ -58,4 +55,14 @@ a:hover {
 .class-item {
 	text-align: left;
 	margin-top: 20px;
+}
+
+#projects-div, #welcome-div, #about-div, #es-img {
+	width: 60vw;
+}
+
+#es-img {
+	box-shadow: -5px 5px 2px rgba(0,0,0,0.5);
+	margin-bottom: 2%;
+	width: 65vw;
 }
