@@ -99,12 +99,8 @@ Anyway, this is my 'brilliant' fix for it until I can come up with a more accept
 	img{
 		display: none;
 	}
-
 	#portfolio-site-mockup {
 		position: absolute;
-	}
-	#es-site-mockup {
-		margin-top: 120%;
 	}
 }
 #intro 
