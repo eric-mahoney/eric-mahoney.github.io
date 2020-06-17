@@ -1,73 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Eric Mahoney</title>
-		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css" type="text/css">
-	</head>
-	<body>
-
-		<nav class="nav navbar navbar-expand-md navbar-dark bg-dark">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#welcome-div" onClick="home()">Eric Mahoney</a>
-			</div>
-			<ul class="navbar-nav">
-				<li class="nav-item"><a href="#about-div" class="nav-link" onClick="aboutMe()">About Me</a></li>
-				<li class="nav-item"><a href="#projects-div" class="nav-link" onClick="projects()">Projects</a></li>
-				<li class="nav-item"><a href="#coursework-div" class="nav-link" onClick="coursework()">Coursework</a></li>
-				<li class="nav-item"><a href="#social-div" class="nav-link" onClick="socialLinks()">Social Links</a></li>
-			</ul>
-		</nav>
-		<div id="main-container">
-			<div id="welcome-div" class="center-aligned">
-				<h1>Hello, my name is Eric Mahoney.</h1>
-				<h2>I'm an IT major at <a href="https://www2.gmu.edu/">George Mason University</a>, passionate about Web Development.</h2>
-			</div>
-			<div id="about-div" class="center-aligned">
-				<img id="profile-pic" alt="a headshot of myself" src="pictures/headshot.jpeg" height="200px" width="200px">
-				<h1>About Me:</h1>
-				<p>My name is Eric, I'm 20 years old, and I'm an aspiring web developer. I've been interested in computers for as long as I can remember. Even as a little boy, I've always loved building them, taking them apart, modding video games, and my new obsession: programming.</p>
-				<p>Currently, I study Information Technology at George Mason University with a concentration in Databases and Programming.</p>
-				<p>In my free-time, I love to run. Earlier in the year, my sister and I ran our first 5K and I fell in love with it. Currently, I run over 10 miles a week and I plan to start training for the DC Marathon soon!</p>
-				<p>I'm also an avid follower of Soccer (Manchester City), Football (NY Giants), and I love listening to EDM.</p>
-			</div>
-			<div id="projects-div" class="center-aligned">
-				<h1 id="project-header">Projects:</h1>
-				<div id="es-site-mockup">
-					<h2>Event Services Mockup</h2>
-					<a href="http://mason.gmu.edu/~emahone5/es/" target="_blank"><img alt="screenshot of event services website" src="screenshots/eventservices.png" id="es-img"></a>
-					<p>The website linked above was a site I developed for my work, Event Services. I work as an Event Support Assistant and we use this site regularly to access certain forms. While it is functional, it looks a bit outdated. So, off the clock I did a mockup of how I would design the site if I could do it myself. It's mainly <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I chose to use <strong>jQuery</strong> for the easy selectors, the fadeIn() function, and the hide() function.</p>
-				</div>
-				<div id="portfolio-site-mockup" >
-					<h2>Portfolio Website</h2>
-					<a href="https://eric-mahoney.github.io" target="_blank"><img alt="screenshot of this portfolio website" src="screenshots/portfolio.png" id="es-img"></a>
-					<p>Another project that I want to talk about is this site. This was a very fun project and it taught me a lot! It's also my first portfolio site. For this website, I chose to use <strong>Javascript's jQuery</strong> framework for all of the main animation on the screen. I also used <strong>Bootstrap</strong> for page responsiveness and the navbar at the top of the screen.</p>
-				</div>
-			</div>
-			<div id="coursework-div" class="center-aligned">
-				<h1>Relevant Coursework:</h1>
-				<ul>
-					<li class="class-item"><a href="syllabus/IT209.pdf" target="_blank">IT 209 - Object Oriented Programming</a> <img alt="python logo" src="icons/python.svg" width="20px" height="20px"></li>
-					<li class="class-item"><a href="syllabus/IT207.pdf" target="_blank">IT 207 - Applied IT Programming</a> <img alt="PHP logo" src="icons/php.svg" height="30px" width="40px"> <img alt="MySQL logo" src="icons/mysql.svg" height="40px" width="60px"></li>
-					<li class="class-item"><a href="syllabus/IT213.pdf" target="_blank">IT 213 - Intro to Web Development and Multimedia</a> <img alt="HTML logo" src="icons/html5.svg" width="30px" height="30px"> <img alt="CSS logo" src="icons/css3.svg" height="30px" width="30px"> <img alt="javascript logo" src="icons/javascript.svg" height="30px" width="30px"> <img alt="photoshop logo" src="icons/photoshop.svg" width="30px" height="30px"></li>
-					<li class="class-item"><a href="syllabus/IT214.pdf" target="_blank">IT 214 - Database Fundamentals</a> <img alt="MySQL logo" src="icons/mysql.svg" height="40px" width="60px"></li>
-					<li class="class-item"><a href="syllabus/IT109.pdf" target="_blank">IT 109 - IT Problem Solving Using  Computer Programming</a> <img alt="python logo" src="icons/python.svg" width="20px" height="20px"></li>
-					<li class="class-item"><a href="syllabus/IT223.pdf" target="_blank">IT 223 - Intro to Security Fundamentals</a></li>
-				</ul>
-			</div>
-			<div id="social-div" class="center-aligned"><h1>Connect with me!</h1>
-				<a href="https://www.linkedin.com/in/eric-mahoney-07a79515a/" target="_blank"><img alt="linked in logo" src="icons/linkedin.svg" class="icons"></a>
-				<a href="https://codepen.io/ericmahoney/" target="_blank"><img alt="codepen logo" src="icons/codepen.svg" class="icons"></a>
-				<a href="https://github.com/eric-mahoney" target="_blank"><img alt="github logo" src="icons/github.svg" class="icons"></a>
-				<a href="https://instagram.com/mahoney.eric" target="_blank"><img alt="instagram logo" src="icons/instagram.svg" class="icons"></a>
-			</div>
-		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<script src="script.js"></script>
-		<script src="jquery-3.3.1.js"></script>
-	</body>
+  <head>
+    <title>Eric Mahoney</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
 </html>
