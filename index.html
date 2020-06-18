@@ -5,60 +5,113 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
+    <!-- ABOUT -->
+
     <section class="section section--about">
-      <div class="about-left">
-        <p class="intro-top">Hi, I'm Eric</p>
-        <p class="intro-bottom">I'm a junior software developer based in Fairfax, VA</p>
-      </div>
-      <div class="about-right"><img class="about-img" src="pictures/me.jpg" /></div>
-    </section>
-    <section class="section section--work">
-      <h2 class="section__title">WORK</h2>
-      <div class="workplace-container">
-        <h3 class="company">BrainEvolved</h3>
-        <p class="job-title">Software Engineering Intern</p>
-        <p class="job-date">November 2019 - Present</p>
-        <ul class="job-desc">
-          <li>Designed, developed, tested, and deployed mobile app features using Angular & Ionic.</li>
-          <li>Effectively communicate within an agile scrum team.</li>
-          <li>Work with other team members to complete items in the backlog.</li>
-          <li>Assist in debugging of program as bug reports come in.</li>
-          <li>Leveraged knowledge of: Angular, Ionic, TypeScript, Git/GitLab, and Google Firebase.</li>
-        </ul>
-      </div>
-      <div class="workplace-container">
-        <h3>George Mason University - Student Centers</h3>
-        <p>Junior Web Developer</p>
-        <p>May 2019 - Present</p>
-        <ul class="job-desc">
-          <li>Meet with various stakeholders to design and develop the content and design of their pages using HTML, CSS, and JavaScript.</li>
-          <li>Work closely with graphic designers and video editors to add new content to the website such as events, programs, and diagrams.</li>
-          <li>Update and maintain content such as building hours, employee contact forms, and other information.</li>
-          <li>Leveraged knowledge of: HTML, CSS, JavaScript, WordPress.</li>
-        </ul>
+      <div class="about-container">
+        <div class="about-left">
+          <p class="intro-top">Hi, I'm Eric</p>
+          <p class="intro-bottom">I'm a junior software developer based in Fairfax, VA</p>
+        </div>
+        <div class="about-right"><img class="about-img" src="pictures/me.jpg" /></div>
       </div>
     </section>
-    <section class="section section--project">
-      <h2 class="section__title section__title--white">PROJECTS</h2>
-      <div class="project">
-        <h3 class="project__title">Lapis</h3>
-        <p class="project__description">A new way to connect students together based on hobbies.</p>
-        <a class="project__link" href="#">View on Gitlab</a>
-        <ul class="project__tech">
-          <li>Angular</li>
-          <li>Firebase</li>
-          <li>TypeScript</li>
-        </ul>
+
+    <!-- WORK -->
+
+    <section class="section--work">
+      <div class="workplace-container">
+        <div class="job">
+          <h3 class="company">BrainEvolved</h3>
+          <p class="job-title">Software Engineering Intern</p>
+          <p class="job-date">November '19 - Present</p>
+          <ul class="job-desc">
+            <li>Designed, developed, tested, and deployed mobile app features using Angular & Ionic.</li>
+            <li>Effectively communicate within an agile scrum team.</li>
+            <li>Work with other team members to complete items in the backlog.</li>
+            <li>Assist in debugging of program as bug reports come in.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3 class="company">George Mason University</h3>
+          <p class="job-title">Junior Web Developer</p>
+          <p class="job-date">May '19 - Present</p>
+          <ul class="job-desc">
+            <li>Meet with various stakeholders to design and develop the content and design of their pages using HTML, CSS, and JavaScript.</li>
+            <li>Work closely with graphic designers and video editors to add new content to the website such as events, programs, and diagrams.</li>
+            <li>Update and maintain content such as building hours, employee contact forms, and other information.</li>
+          </ul>
+        </div>
       </div>
-      <div class="project">
-        <h3 class="project__title">Warzone Roulette</h3>
-        <p class="project__description">Community-sourced strategy Warzone</p>
-        <a class="project__link" href="#">View on Gitlab</a>
-        <ul class="project__tech">
-          <li>Angular</li>
-          <li>Firebase</li>
-          <li>TypeScript</li>
-        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section class="section--project">
+      <div class="container project-container">
+        <div class="project">
+          <h3 class="project__title">Lapis</h3>
+          <p class="project__description">A new way to connect students together based on hobbies.</p>
+          <a class="project__link" href="https://gitlab.com/it390-group3/group-project-main-branch" target="_blank">View on Gitlab</a>
+          <ul class="project__tech">
+            <li>Angular</li>
+            <li>Firebase</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3 class="project__title">Warzone Roulette</h3>
+          <p class="project__description">Community-sourced Warzone strategy application.</p>
+          <a class="project__link" href="https://warzoneroulette.web.app/" target="_blank">View site</a>
+          <ul class="project__tech">
+            <li>Angular</li>
+            <li>Firebase</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3 class="project__title">Dashboardy</h3>
+          <p class="project__description">Simple dashboard application where you can retrieve information about your day at a glance.</p>
+          <a class="project__link" href="https://gitlab.com/ericmahoney/dashboardy" target="_blank">View on Gitlab</a>
+          <ul class="project__tech">
+            <li>Angular</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3 class="project__title">Shipper</h3>
+          <p class="project__description">Order management web app that allows businesses to track the status of customer's orders.</p>
+          <a class="project__link" href="https://github.com/eric-mahoney/Shipper" target="_blank">View on Github</a>
+          <ul class="project__tech">
+            <li>Django</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="section section--skills">
+      <div class="skills-container">
+        <div class="skill">
+          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+          <div class="skill__type">Angular</div>
+        </div>
+        <div class="skill">
+          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+          <div class="skill__type">Django</div>
+        </div>
+        <div class="skill">
+          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+          <div class="skill__type">HTML</div>
+        </div>
+        <div class="skill">
+          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+          <div class="skill__type">CSS</div>
+        </div>
+        <div class="skill">
+          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+          <div class="skill__type">JavaScript</div>
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
