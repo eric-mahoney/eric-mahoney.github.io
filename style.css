@@ -19,7 +19,12 @@ body {
   color: white;
 }
 
-.section--about,
+.section--about {
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+}
+
 .section--project,
 .section--work,
 .section--skills,
@@ -34,7 +39,6 @@ body {
 
 .section {
   position: relative;
-  height: 100vh;
 }
 
 .section--about {
@@ -257,6 +261,11 @@ body {
   height: 50px;
   border-radius: 50%;
   background-color: #0094ff;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  background-color: red;
 }
 
 .jam {
