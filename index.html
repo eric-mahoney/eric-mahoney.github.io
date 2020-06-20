@@ -4,6 +4,7 @@
     <title>Eric Mahoney</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
   </head>
   <body>
     <!-- ABOUT -->
@@ -21,10 +22,11 @@
     <!-- WORK -->
 
     <section class="section--work">
+      <h2 class="section__title">WORK</h2>
       <div class="workplace-container">
         <div class="job">
           <h3 class="company">BrainEvolved</h3>
-          <p class="job-title">Software Engineering Intern</p>
+          <p class="job-title"><span class="blue-line">Software Engineering Intern</span></p>
           <p class="job-date">November '19 - Present</p>
           <ul class="job-desc">
             <li>Designed, developed, tested, and deployed mobile app features using Angular & Ionic.</li>
@@ -35,7 +37,7 @@
         </div>
         <div class="job">
           <h3 class="company">George Mason University</h3>
-          <p class="job-title">Junior Web Developer</p>
+          <p class="job-title"><span class="blue-line">Junior Front-End Developer</span></p>
           <p class="job-date">May '19 - Present</p>
           <ul class="job-desc">
             <li>Meet with various stakeholders to design and develop the content and design of their pages using HTML, CSS, and JavaScript.</li>
@@ -49,6 +51,7 @@
     <!-- PROJECTS -->
 
     <section class="section--project">
+      <h2 class="section__title">PROJECTS</h2>
       <div class="container project-container">
         <div class="project">
           <h3 class="project__title">Lapis</h3>
@@ -92,31 +95,47 @@
     <!-- SKILLS -->
 
     <section class="section section--skills">
+      <h2 class="section__title">SKILLS</h2>
       <div class="skills-container">
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">Angular</div>
+        <div class="skill-column">
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">Angular</div>
+          </div>
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">HTML</div>
+          </div>
         </div>
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">Django</div>
+        <div class="skill-column">
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">CSS</div>
+          </div>
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">Firebase</div>
+          </div>
         </div>
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">HTML</div>
+        <div class="skill-column">
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">Django</div>
+          </div>
+          <div class="skill">
+            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
+            <div class="skill__type">JavaScript</div>
+          </div>
         </div>
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">CSS</div>
-        </div>
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">JavaScript</div>
-        </div>
-        <div class="skill">
-          <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-          <div class="skill__type">Firebase</div>
-        </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="section section--connect">
+      <h2 class="section__title">CONNECT</h2>
+      <div class="icon-container">
+        <div class="icon"><span class="jam jam-linkedin"></span></div>
+        <div class="icon"><span class="jam jam-envelope"></span></div>
+        <div class="icon"><span class="jam jam-codepen"></span></div>
       </div>
     </section>
     <script src="script.js"></script>
