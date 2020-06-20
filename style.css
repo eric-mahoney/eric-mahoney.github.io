@@ -46,29 +46,39 @@ body {
 
 /* INTRO HERO */
 
-.about-left,
-.about-right {
-  width: 80%;
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 50px;
 }
 
 .intro-top {
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 500;
+  color: #0094ff;
+  transition: color 0.5s;
 }
+
+.intro-top:hover {
+  color: red;
+}
+
 .intro-bottom {
-  font-size: 2em;
+  margin-top: 10px;
+  font-size: 20px;
   color: #afafaf;
 }
 
-.about-img {
-  max-width: 50%;
+.about-left,
+.about-right {
+  width: 500px;
+  margin: 50px;
 }
 
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.about-img {
+  max-width: 100%;
 }
 
 /* WORK SECTION */
@@ -147,13 +157,12 @@ body {
 
 .project {
   position: relative;
-  height: 100px;
   width: 600px;
   margin: 50px;
   padding: 0px 20px;
   display: grid;
   grid-template-columns: 100px 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 40px 1fr 40px;
   transition: all 1s;
 }
 
@@ -180,9 +189,10 @@ body {
 }
 
 .project__description {
+  line-height: 1.5em;
   grid-column: 1/3;
   grid-row: 2/2;
-  font-size: 16px;
+  font-size: 14px;
   color: #9a9a9a;
   align-self: start;
 }
@@ -216,7 +226,6 @@ body {
 .skills-container {
   margin: 50px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -226,7 +235,7 @@ body {
 }
 
 .skill__type {
-  margin: 0px 20px;
+  margin: 20px;
   font-size: 25px;
 }
 
@@ -235,6 +244,16 @@ body {
 @media (max-width: 700px) {
   .section--about {
     flex-direction: column;
+  }
+
+  .about-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-left,
+  .about-right {
+    margin: 10px;
   }
 
   .about-img {
