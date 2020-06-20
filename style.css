@@ -19,6 +19,11 @@ body {
   color: white;
 }
 
+.hide-visually {
+  position: absolute;
+  left: -9999px;
+}
+
 .section--about {
   margin: 0 auto;
   width: 90%;
@@ -101,8 +106,8 @@ body {
 }
 
 .company {
-  font-size: 16px;
-  color: #b5b5b5;
+  font-size: 17px;
+  color: #ddd;
   font-weight: 400;
   grid-column: 1/2;
   grid-row: 1/2;
@@ -160,7 +165,7 @@ body {
 .project {
   position: relative;
   width: 600px;
-  margin-bottom: 50px;
+  margin: 0px 20px 50px 0px;
   padding: 0px 20px;
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -249,7 +254,7 @@ body {
 
 .icon-container {
   display: flex;
-  width: 200px;
+  width: 500px;
   justify-content: space-between;
 }
 
@@ -257,11 +262,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: white;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #0094ff;
-  transition: all 0.5s;
+  transition: background 0.5s;
 }
 
 .icon:hover {
