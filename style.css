@@ -19,6 +19,10 @@ body {
   color: white;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 .hide-visually {
   position: absolute;
   left: -9999px;
@@ -35,11 +39,8 @@ body {
 .section--skills,
 .section--connect {
   margin: 5% auto;
+  padding: 5% 0;
   width: 90%;
-}
-
-.section--connect {
-  height: 50vh;
 }
 
 .bold {
