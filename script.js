@@ -57,8 +57,8 @@ workTl.from(jobs, 1, {
 
 // initialize scene
 var workScene = new ScrollMagic.Scene({
-  triggerElement: ".workplace-container",
-  triggerHook: 0.9,
+  triggerElement: ".section--work",
+  triggerHook: 0.5,
   reverse: false,
 })
   .setTween(workTl)
@@ -78,7 +78,7 @@ var projTl = new TimelineMax();
 var projects = document.querySelectorAll(".project");
 
 // gsap animations
-workTl.from(projects, 0.5, {
+projTl.from(projects, 0.5, {
   opacity: 0,
   x: "-100px",
   stagger: 0.5,
@@ -86,8 +86,8 @@ workTl.from(projects, 0.5, {
 
 // initialize scene
 var projScene = new ScrollMagic.Scene({
-  triggerElement: ".project-container",
-  triggerHook: 0.9,
+  triggerElement: ".section--project",
+  triggerHook: 0.5,
   reverse: false,
 })
   .setTween(projTl)
@@ -113,7 +113,7 @@ skillTl.from(skills, 2, {
 
 // initialize scene
 var skillScene = new ScrollMagic.Scene({
-  triggerElement: ".skills-container",
+  triggerElement: ".section--skills",
   triggerHook: 0.5,
   reverse: false,
 })
@@ -141,7 +141,7 @@ connectTl.from(icons, 2, {
 // initialize scene
 var connectScene = new ScrollMagic.Scene({
   triggerElement: ".section--connect",
-  triggerHook: 0.7,
+  triggerHook: 0.8,
   reverse: false,
 })
   .setTween(connectTl)
