@@ -141,7 +141,7 @@ connectTl.from(icons, 2, {
 // initialize scene
 var connectScene = new ScrollMagic.Scene({
   triggerElement: ".section--connect",
-  triggerHook: 0.9,
+  triggerHook: 0.7,
   reverse: false,
 })
   .setTween(connectTl)
