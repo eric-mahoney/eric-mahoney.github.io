@@ -38,6 +38,10 @@ body {
   width: 90%;
 }
 
+.section--connect {
+  height: 50vh;
+}
+
 .bold {
   font-weight: bold;
 }
