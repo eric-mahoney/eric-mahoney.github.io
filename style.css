@@ -254,7 +254,8 @@ body {
 
 .icon-container {
   display: flex;
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
   justify-content: space-between;
 }
 
