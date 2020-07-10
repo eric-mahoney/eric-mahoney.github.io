@@ -13,11 +13,26 @@ button:focus {
   outline: none;
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.page-header {
+  color: #06060c;
+}
+
+.page-description {
+  line-height: 150%;
+}
+
 .drum-btn {
+  height: 75px;
+  width: 120px;
+  display: grid;
+  grid-template-rows: 50px 25px;
   color: #d0d4f6;
   background-color: #06060c;
-  width: 100px;
-  height: 40px;
   margin: 10px;
   border-radius: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -28,13 +43,56 @@ button:focus {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.page-header {
-  color: #06060c;
-  text-align: center;
+.drum-key {
+  font-size: 20px;
+  align-self: center;
+}
+
+.drum-type {
+  color: #6e6e9c;
+  align-self: center;
 }
 
 .button-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+}
+
+.timeline-btn {
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+}
+
+#listening {
+  font-size: 15px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.start-btn {
+  background-color: #2e594f;
+}
+
+.stop-btn {
+  background-color: #592e2e;
+}
+
+.play-btn {
+  background-color: #2e5559;
+}
+
+.clear-btn {
+  background-color: #592e2e;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
 }

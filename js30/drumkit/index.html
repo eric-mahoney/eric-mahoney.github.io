@@ -17,30 +17,73 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <h1 class="page-header">JS30 - Day 1 - Drum Kit</h1>
+    <div class="container">
+      <h1 class="page-header">JS30 - Day 1 - Drum Kit</h1>
+      <p class="page-description">
+        Hi, welcome to day one of my JS30 projects. Today is a drum-kit made in JavaScript. You can either click on the buttons, or press the corresponding key to play the sound. You can also create
+        your own beat at the bottom by listening to the drum pattern and then playing it back. Just click "start listening" and drum away, then play when you're ready!
+      </p>
 
-    <!-- load all of the audio files -->
-    <audio id="boom" src="sounds/boom.wav"></audio>
-    <audio id="clap" src="sounds/clap.wav"></audio>
-    <audio id="hihat" src="sounds/hihat.wav"></audio>
-    <audio id="kick" src="sounds/kick.wav"></audio>
-    <audio id="openhat" src="sounds/openhat.wav"></audio>
-    <audio id="ride" src="sounds/ride.wav"></audio>
-    <audio id="snare" src="sounds/snare.wav"></audio>
-    <audio id="tink" src="sounds/tink.wav"></audio>
-    <audio id="tom" src="sounds/tom.wav"></audio>
+      <!-- load all of the audio files -->
+      <audio id="boom" src="sounds/boom.wav"></audio>
+      <audio id="clap" src="sounds/clap.wav"></audio>
+      <audio id="hihat" src="sounds/hihat.wav"></audio>
+      <audio id="kick" src="sounds/kick.wav"></audio>
+      <audio id="openhat" src="sounds/openhat.wav"></audio>
+      <audio id="ride" src="sounds/ride.wav"></audio>
+      <audio id="snare" src="sounds/snare.wav"></audio>
+      <audio id="tink" src="sounds/tink.wav"></audio>
+      <audio id="tom" src="sounds/tom.wav"></audio>
 
-    <!-- container of all of the sound buttons -->
-    <div class="button-container">
-      <button class="drum-btn" onClick="playSound('boom')">boom</button>
-      <button class="drum-btn" onClick="playSound('clap')">clap</button>
-      <button class="drum-btn" onClick="playSound('hihat')">hihat</button>
-      <button class="drum-btn" onClick="playSound('kick')">kick</button>
-      <button class="drum-btn" onClick="playSound('openhat')">openhat</button>
-      <button class="drum-btn" onClick="playSound('ride')">ride</button>
-      <button class="drum-btn" onClick="playSound('snare')">snare</button>
-      <button class="drum-btn" onClick="playSound('tink')">tink</button>
-      <button class="drum-btn" onClick="playSound('tom')">tom</button>
+      <!-- container of all of the sound buttons -->
+      <div class="button-container">
+        <button class="drum-btn" onClick="playSound('boom')">
+          <span class="drum-key">Q</span>
+          <span class="drum-type">boom</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('clap')">
+          <span class="drum-key">W</span>
+          <span class="drum-type">clap</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('hihat')">
+          <span class="drum-key">E</span>
+          <span class="drum-type">hihat</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('kick')">
+          <span class="drum-key">R</span>
+          <span class="drum-type">kick</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('openhat')">
+          <span class="drum-key">T</span>
+          <span class="drum-type">openhat</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('ride')">
+          <span class="drum-key">Y</span>
+          <span class="drum-type">ride</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('snare')">
+          <span class="drum-key">U</span>
+          <span class="drum-type">snare</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('tink')">
+          <span class="drum-key">I</span>
+          <span class="drum-type">tink</span>
+        </button>
+        <button class="drum-btn" onClick="playSound('tom')">
+          <span class="drum-key">O</span>
+          <span class="drum-type">tom</span>
+        </button>
+      </div>
+      <div class="timeline-container">
+        <h2>Timeline <span id="listening" class="hidden">(listening...)</span></h2>
+        <div class="timeline-btn-container">
+          <button class="timeline-btn start-btn" onClick="startTimeline()">start listening</button>
+          <button class="timeline-btn stop-btn" onClick="stopTimeline()">stop listening</button>
+          <button class="timeline-btn play-btn" onClick="playTimeline()">play timeline</button>
+          <button class="timeline-btn clear-btn" onClick="clearTimeline()">clear timeline</button>
+        </div>
+        <div id="timeline"></div>
+      </div>
     </div>
 
     <!-- load the external js file -->
