@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+.learn a {
+  color: #006cba;
+}
+
 .return {
   margin: 20px;
   display: flex;
