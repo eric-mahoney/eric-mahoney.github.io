@@ -17,6 +17,10 @@ a:hover {
   text-decoration: underline;
 }
 
+li {
+  list-style-type: none;
+}
+
 .learn a {
   color: #006cba;
 }
@@ -54,4 +58,10 @@ a:hover {
 .project {
   margin: 20px 0px;
   list-style: none;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
 }

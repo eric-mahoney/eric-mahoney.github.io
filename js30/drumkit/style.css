@@ -19,16 +19,16 @@ button:focus {
   outline: none;
 }
 
-nav {
+.return {
+  margin: 20px;
   display: flex;
   align-items: center;
-  background-color: #777ebf;
-  height: 50px;
+  color: black;
 }
 
-li {
-  margin-left: 20px;
-  list-style-type: none;
+.svg-arrow {
+  width: 16px;
+  margin: 0px 15px;
 }
 
 a {
