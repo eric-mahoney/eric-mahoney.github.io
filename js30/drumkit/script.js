@@ -2,7 +2,6 @@ var timeline = [];
 var listening = false;
 
 function playSound(sound) {
-  console.log("playing " + sound);
   if (listening == true) {
     addTimeline(sound);
   }
@@ -13,7 +12,6 @@ function playSound(sound) {
 
 // adds event listeners to listen to the keys to play the correct sound
 document.addEventListener("keydown", function (e) {
-  console.log(e, e.keyCode);
   switch (e.keyCode) {
     case 81:
       playSound("boom");
