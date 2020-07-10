@@ -104,19 +104,19 @@ a {
 }
 
 .start-btn {
-  background-color: #2e594f;
+  background-color: #0179b7;
 }
 
 .stop-btn {
-  background-color: #592e2e;
+  background-color: #64388c;
 }
 
 .play-btn {
-  background-color: #2e5559;
+  background-color: #00914c;
 }
 
 .clear-btn {
-  background-color: #592e2e;
+  background-color: #f02934;
 }
 
 @media (max-width: 800px) {
