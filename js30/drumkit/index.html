@@ -17,6 +17,7 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <h1 class="page-header">JS30 - Day 1 - Drum Kit</h1>
 
     <!-- load all of the audio files -->
     <audio id="boom" src="sounds/boom.wav"></audio>
@@ -31,15 +32,15 @@
 
     <!-- container of all of the sound buttons -->
     <div class="button-container">
-      <button onClick="playSound('boom')">boom</button>
-      <button onClick="playSound('clap')">clap</button>
-      <button onClick="playSound('hihat')">hihat</button>
-      <button onClick="playSound('kick')">kick</button>
-      <button onClick="playSound('openhat')">openhat</button>
-      <button onClick="playSound('ride')">ride</button>
-      <button onClick="playSound('snare')">snare</button>
-      <button onClick="playSound('tink')">tink</button>
-      <button onClick="playSound('tom')">tom</button>
+      <button class="drum-btn" onClick="playSound('boom')">boom</button>
+      <button class="drum-btn" onClick="playSound('clap')">clap</button>
+      <button class="drum-btn" onClick="playSound('hihat')">hihat</button>
+      <button class="drum-btn" onClick="playSound('kick')">kick</button>
+      <button class="drum-btn" onClick="playSound('openhat')">openhat</button>
+      <button class="drum-btn" onClick="playSound('ride')">ride</button>
+      <button class="drum-btn" onClick="playSound('snare')">snare</button>
+      <button class="drum-btn" onClick="playSound('tink')">tink</button>
+      <button class="drum-btn" onClick="playSound('tom')">tom</button>
     </div>
 
     <!-- load the external js file -->
