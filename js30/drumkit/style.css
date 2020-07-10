@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #d0d4f6;
   font-family: system-ui, sans-serif;
@@ -11,6 +17,27 @@ button {
 
 button:focus {
   outline: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #777ebf;
+  height: 50px;
+}
+
+li {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-y {
+  margin: 25px 0px;
 }
 
 .container {

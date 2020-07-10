@@ -14,12 +14,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a class="main" href="../">BACK TO HOME</a></li>
+      </ul>
+    </nav>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="container">
-      <h1 class="page-header">JS30 - Day 1 - Drum Kit</h1>
-      <p class="page-description">
+      <h1 class="page-header margin-y">JS30 - Day 1 - Drum Kit</h1>
+      <p class="page-description margin-y">
         Hi, welcome to day one of my JS30 projects. Today is a drum-kit made in JavaScript. You can either click on the buttons, or press the corresponding key to play the sound. You can also create
         your own beat at the bottom by listening to the drum pattern and then playing it back. Just click "start listening" and drum away, then play when you're ready!
       </p>
@@ -36,7 +41,7 @@
       <audio id="tom" src="sounds/tom.wav"></audio>
 
       <!-- container of all of the sound buttons -->
-      <div class="button-container">
+      <div class="button-container margin-y">
         <button class="drum-btn" onClick="playSound('boom')">
           <span class="drum-key">Q</span>
           <span class="drum-type">boom</span>
@@ -74,8 +79,8 @@
           <span class="drum-type">tom</span>
         </button>
       </div>
-      <div class="timeline-container">
-        <h2>Timeline <span id="listening" class="hidden">(listening...)</span></h2>
+      <div class="timeline-container margin-y">
+        <h2>Create A Beat!<span id="listening" class="hidden">(listening...)</span></h2>
         <div class="timeline-btn-container">
           <button class="timeline-btn start-btn" onClick="startTimeline()">start listening</button>
           <button class="timeline-btn stop-btn" onClick="stopTimeline()">stop listening</button>
