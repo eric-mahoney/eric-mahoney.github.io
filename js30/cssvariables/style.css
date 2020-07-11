@@ -54,6 +54,10 @@ li {
   margin: 50px 0px;
 }
 
+.slider-container {
+  margin: 20px 0px;
+}
+
 @media (max-width: 800px) {
   .container {
     width: 90%;

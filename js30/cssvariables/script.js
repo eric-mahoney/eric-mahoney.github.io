@@ -5,8 +5,9 @@ function updateBoxShadow() {
   const color = document.getElementById("colorSlider").value;
   const card = document.getElementById("sample-card");
   const output = document.getElementById("box-shadow-output");
+  const css = `${xAxis}px ${yAxis}px ${blur}px ${color}`;
 
-  card.style.boxShadow = `${xAxis}px ${yAxis}px ${blur}px ${color}`;
+  card.style.boxShadow = css;
 
-  output.innerHTML = card.style.boxShadow;
+  output.innerHTML = "box-shadow: " + css + ";";
 }

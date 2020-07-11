@@ -31,7 +31,7 @@
     </nav>
     <div class="container">
       <section class="header margin">
-        <h1>JS30 - Day 3 - Modifying CSS Variables with JS</h1>
+        <h1>JS30 - Day 3 - Modifying CSS Properties with JS</h1>
       </section>
       <section class="default-clock margin">
         <h2 class="subtitle">MODIFYING BOX SHADOW</h2>
@@ -44,18 +44,18 @@
         </div>
         <div class="slider-container">
           <p class="subtitle">y-axis</p>
-          <input type="range" min="0" max="50" value="0" id="yAxisSlider" onChange="updateBoxShadow()" />
+          <input type="range" min="0" max="50" value="1" id="yAxisSlider" onChange="updateBoxShadow()" />
         </div>
         <div class="slider-container">
           <p class="subtitle">blur</p>
-          <input type="range" min="0" max="50" value="0" id="blurSlider" onChange="updateBoxShadow()" />
+          <input type="range" min="0" max="50" value="3" id="blurSlider" onChange="updateBoxShadow()" />
         </div>
         <div class="slider-container">
           <p class="subtitle">color</p>
-          <input type="color" id="colorSlider" onChange="updateBoxShadow()" />
+          <input type="color" id="colorSlider" value="#000" onChange="updateBoxShadow()" />
         </div>
         <div class="slider-container">
-          <p class="subtitle">output</p>
+          <p class="subtitle">css output</p>
           <p id="box-shadow-output"></p>
         </div>
       </section>
