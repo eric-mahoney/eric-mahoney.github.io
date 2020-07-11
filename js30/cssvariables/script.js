@@ -18,4 +18,5 @@ const inputs = document.querySelectorAll("input");
 
 inputs.forEach((input) => input.addEventListener("change", updateBoxShadow));
 inputs.forEach((input) => input.addEventListener("mousemove", updateBoxShadow));
+inputs.forEach((input) => input.addEventListener("touchmove", updateBoxShadow));
 document.getElementById("colorSlider").addEventListener("mousedown", updateBoxShadow);
