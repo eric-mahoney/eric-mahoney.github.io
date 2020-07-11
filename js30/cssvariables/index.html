@@ -32,6 +32,10 @@
     <div class="container">
       <section class="header margin">
         <h1>JS30 - Day 3 - Modifying CSS Properties with JS</h1>
+        <p class="challenge-description">
+          The challenge for today is to modify css properties with javascript. For this, I chose to make a box-shadow visualizer. I chose this because box shadows are very trendy in current-day web
+          development and sometimes they are hard to visualize how you want them to look.
+        </p>
       </section>
       <section class="default-clock margin">
         <h2 class="subtitle">MODIFYING BOX SHADOW</h2>
@@ -44,19 +48,19 @@
         </div>
         <div class="slider-container">
           <p class="subtitle">y-offset</p>
-          <input type="range" min="0" max="50" value="1" id="yOffsetSlider" />
+          <input type="range" min="0" max="50" value="0" id="yOffsetSlider" />
         </div>
         <div class="slider-container">
           <p class="subtitle">blur</p>
-          <input type="range" min="0" max="50" value="3" id="blurSlider" />
+          <input type="range" min="0" max="50" value="6" id="blurSlider" />
         </div>
         <div class="slider-container">
           <p class="subtitle">color</p>
-          <input type="color" id="colorSlider" value="#000" />
+          <input type="color" id="colorSlider" value="#ababab" />
         </div>
         <div class="slider-container">
           <p class="subtitle">css output</p>
-          <p id="box-shadow-output"></p>
+          <p id="box-shadow-output">box-shadow: 0px 0px 6px #ababab;</p>
         </div>
       </section>
     </div>

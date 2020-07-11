@@ -44,6 +44,12 @@ li {
   margin: 0 auto;
 }
 
+.challenge-description {
+  line-height: 150%;
+  color: #606266;
+  margin: 10px 0px;
+}
+
 .subtitle {
   color: #a1a5ab;
   font-size: 14px;
@@ -73,5 +79,5 @@ li {
   align-items: center;
   width: 150px;
   height: 150px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 6px #ababab;
 }
