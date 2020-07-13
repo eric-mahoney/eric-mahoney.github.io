@@ -258,27 +258,20 @@ section {
 /* CONNECT SECTION */
 
 .icon-container {
-  display: flex;
   width: 100%;
   max-width: 600px;
-  justify-content: space-between;
 }
 
 .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 25px;
+  margin: 30px 30px 0px 0px;
   text-decoration: none;
   color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #0094ff;
-  transition: background 0.5s;
+  transition: color 0.5s;
 }
 
 .icon:hover {
-  background-color: red;
+  color: grey;
 }
 
 .jam {
