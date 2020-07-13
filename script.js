@@ -1,6 +1,6 @@
 /*
  * ABOUT SECTION GSAP
- */
+
 
 // initialize scrollmagic controller
 var intCont = new ScrollMagic.Controller();
@@ -35,9 +35,11 @@ var intScene = new ScrollMagic.Scene({
   .setTween(intTl)
   .addTo(intCont);
 
+   */
+
 /*
  * WORK SECTION GSAP
- */
+
 
 // initialize scrollmagic controller
 var workCont = new ScrollMagic.Controller();
@@ -64,9 +66,10 @@ var workScene = new ScrollMagic.Scene({
   .setTween(workTl)
   .addTo(workCont);
 
+   */
+
 /*
  * PROJECT SECTION GSAP
- */
 
 // initialize scrollmagic controller
 var projCont = new ScrollMagic.Controller();
@@ -93,9 +96,10 @@ var projScene = new ScrollMagic.Scene({
   .setTween(projTl)
   .addTo(projCont);
 
+   */
+
 /*
  * SKILLS SECTION GSAP
- */
 
 // initialize scrollmagic controller
 var skillCont = new ScrollMagic.Controller();
@@ -120,9 +124,10 @@ var skillScene = new ScrollMagic.Scene({
   .setTween(skillTl)
   .addTo(skillCont);
 
+   */
+
 /*
  * SKILLS SECTION GSAP
- */
 
 // initialize scrollmagic controller
 var connectCont = new ScrollMagic.Controller();
@@ -146,3 +151,4 @@ var connectScene = new ScrollMagic.Scene({
 })
   .setTween(connectTl)
   .addTo(connectCont);
+ */
