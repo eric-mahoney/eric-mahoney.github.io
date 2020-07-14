@@ -64,6 +64,14 @@ h2 {
   margin: 50px 0px;
 }
 
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* END DEFAULT STYLING */
+
 .slider-container {
   margin: 20px 0px;
 }
@@ -82,11 +90,3 @@ h2 {
 .array-btn {
   margin: 0px 10px;
 }
-
-@media (max-width: 800px) {
-  .container {
-    width: 90%;
-  }
-}
-
-/* END DEFAULT STYLING */
