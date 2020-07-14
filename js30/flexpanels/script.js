@@ -1,5 +1,6 @@
 // add an event listener to the document to listen for clicks
 document.addEventListener("click", openPanel);
+document.addEventListener("touchstart", openPanel);
 
 // open the panel when clicked
 function openPanel(e) {
