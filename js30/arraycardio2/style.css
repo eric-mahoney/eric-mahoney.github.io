@@ -1,0 +1,73 @@
+/* DEFAULT STYLING */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f8ff;
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.learn a {
+  color: #006cba;
+}
+
+.return {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.svg-arrow {
+  width: 16px;
+  margin: 0px 15px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.challenge-description {
+  line-height: 150%;
+  color: #606266;
+  margin: 10px 0px;
+}
+
+.subtitle {
+  color: #a1a5ab;
+  font-size: 14px;
+  margin: 5px 0px;
+}
+
+.margin {
+  margin: 50px 0px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* END DEFAULT STYLING */
