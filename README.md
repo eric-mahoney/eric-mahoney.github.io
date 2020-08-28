@@ -1,1 +1,1 @@
-# [Portfolio Site](http://ericmahoney.me)
+Developed using HTML, CSS, Javascript (no frameworks)
