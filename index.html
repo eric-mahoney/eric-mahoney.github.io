@@ -1,198 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157937374-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-157937374-1');
-    </script>
-
-    <title>Eric Mahoney</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Eric Mahoney Portfolio</title>
+    <meta name="description" content="Portfolio for software developer Eric Mahoney" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-    <link rel="icon" href="icons/wave.svg">
-    <link rel=”mask-icon” href=”icons/wave.svg” color=”#000000">
-    <link rel="apple-touch-icon" href="icons/wave.svg">
-    <meta property="og:title" content="Eric Mahoney - Portfolio" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
   </head>
   <body>
-    <!-- ABOUT -->
-
-    <section class="section section--about">
-      <div class="about-container">
-        <div class="about-left">
-          <p class="intro-top">Hi, I'm Eric</p>
-          <p class="intro-bottom">I'm a junior software developer based in Fairfax, VA</p>
-        </div>
-        <div class="about-right"><img class="about-img" src="pictures/me.jpg" alt="a photo of myself standing behind a wall" /></div>
-      </div>
-    </section>
-
-    <!-- WORK -->
-
-    <section class="section--work">
-      <h2 class="section__title">WORK</h2>
-      <div class="workplace-container">
-        <div class="job">
-          <h3 class="company">BrainEvolved</h3>
-          <p class="job-title"><span class="blue-line">Software Engineering Intern</span></p>
-          <p class="job-date">November '19 - Present</p>
-          <ul class="job-desc">
-            <li>Designed, developed, tested, and deployed mobile app features using Angular & Ionic.</li>
-            <li>Effectively communicate within an agile scrum team.</li>
-            <li>Work with other team members to complete items in the backlog.</li>
-            <li>Assist in debugging of program as bug reports come in.</li>
-          </ul>
-        </div>
-        <div class="job">
-          <h3 class="company">George Mason University</h3>
-          <p class="job-title"><span class="blue-line">Junior Front-End Developer</span></p>
-          <p class="job-date">May '19 - Present</p>
-          <ul class="job-desc">
-            <li>Worked to overhaul entire front-end of website with a more modern and accessible approach.</li>
-            <li>Worked closely with marketing team to improve website SEO and increase traffic to website.</li>
-            <li>Collaborated with other departments on content and design of new website.</li>
-            <li>Rapidly prototyped designs in Figma to get quick feedback before development.</li>
-            <li>Leveraged knowledge of CSS, Figma, HTML, JavaScript, and WordPress.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-
-    <section class="section--project">
-      <h2 class="section__title">PROJECTS</h2>
-      <div class="container project-container">
-        <div class="project">
-          <h3 class="project__title">JavaScript 30</h3>
-          <p class="project__description">30 Projects in 30 Days using JavaScript.</p>
-          <a class="project__link" href="js30">View Projects</a>
-          <ul class="project__tech">
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </div>
-        <div class="project">
-          <h3 class="project__title">Lapis</h3>
-          <p class="project__description">A new way to connect students together based on hobbies.</p>
-          <a class="project__link" href="https://gitlab.com/it390-group3/group-project-main-branch" target="_blank">View <span class="hide-visually">Lapis</span> on Gitlab</a>
-          <ul class="project__tech">
-            <li>Angular</li>
-            <li>Firebase</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-        <div class="project">
-          <h3 class="project__title">Warzone Roulette</h3>
-          <p class="project__description">Community-sourced Warzone strategy application.</p>
-          <a class="project__link" href="https://warzoneroulette.web.app/" target="_blank">View <span class="hide-visually">Warzone Roulette</span> site</a>
-          <ul class="project__tech">
-            <li>Angular</li>
-            <li>Firebase</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-        <div class="project">
-          <h3 class="project__title">Dashboardy</h3>
-          <p class="project__description">Simple dashboard application where you can retrieve information about your day at a glance.</p>
-          <a class="project__link" href="https://gitlab.com/ericmahoney/dashboardy" target="_blank">View <span class="hide-visually">Dashboardy</span> on Gitlab</a>
-          <ul class="project__tech">
-            <li>Angular</li>
-          </ul>
-        </div>
-        <div class="project">
-          <h3 class="project__title">Shipper</h3>
-          <p class="project__description">Order management web app that allows businesses to track the status of customer's orders.</p>
-          <a class="project__link" href="https://github.com/eric-mahoney/Shipper" target="_blank">View <span class="hide-visually">Shipper</span> on Github</a>
-          <ul class="project__tech">
-            <li>Django</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-
-    <section class="section section--skills">
-      <h2 class="section__title">SKILLS</h2>
-      <div class="skills-container">
-        <div class="skill-column">
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">Angular</div>
-          </div>
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">HTML</div>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="main-container">
+      <section class="main-heading">
+        <div class="picture"></div>
+        <div class="introduction">
+          <h1>Hi, I'm Eric</h1>
+          <div class="intro__description margin20t">
+            <p class="muted line-height">I am a junior software developer with 2 years of experience in Front-End Development.</p>
+            <p class="muted line-height">
+              Currently looking for opportunities in the Washington, D.C. metro area. If you would like to get in touch, please
+              <a class="underline" href="https://www.linkedin.com/in/eric-mahoney22/" target="_blank">contact me here.</a>
+            </p>
+            <div class="icon-container">
+              <div class="icon-wrapper">
+                <a class="icon" href="https://www.linkedin.com/in/eric-mahoney22/" target="_blank">
+                  <span class="jam jam-linkedin">
+                    <span class="hide-visually">link to view LinkedIn</span>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-wrapper">
+                <a class="icon" href="https://codepen.io/ericmahoney" target="_blank">
+                  <span class="jam jam-codepen">
+                    <span class="hide-visually">link to view codepen</span>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-wrapper">
+                <a class="icon" href="https://github.com/eric-mahoney" target="_blank">
+                  <span class="jam jam-github">
+                    <span class="hide-visually">link to view github</span>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-wrapper">
+                <a class="icon" href="https://gitlab.com/ericmahoney" target="_blank">
+                  <span class="jam jam-gitlab">
+                    <span class="hide-visually">link to view gitlab</span>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-wrapper">
+                <a class="icon" href="mailto:eric.mahoney22@gmail.com" target="_blank">
+                  <span class="jam jam-envelope">
+                    <span class="hide-visually">link to send an email to Eric Mahoney</span>
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="skill-column">
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">CSS</div>
+      </section>
+      <section class="experience-section">
+        <div class="description">
+          <h2 class="description__h2">My Skills</h2>
+          <p class="description__p line-height muted margin20t">Here are the tools and technologies that I have experience with professionally and personally. Personal experience includes coursework, groupwork, and personal time spent using the technology.</p>
+        </div>
+        <div class="skills-container">
+          <div class="skills-column">
+            <h3 class="skills__header">Professional Experience</h3>
+            <div class="skills-flex">
+              <ul class="skills__experience">
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+              <ul class="skills__experience">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Angular</li>
+              </ul>
+              <ul class="skills__experience">
+                <li>Ionic</li>
+                <li>Firebase</li>
+                <li>GitLab</li>
+              </ul>
+            </div>
           </div>
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">Firebase</div>
+          <div class="skills-column">
+            <h3 class="skills__header">Personal Experience</h3>
+            <div class="skills-flex">
+              <ul class="skills__experience">
+                <li>React</li>
+                <li>Django</li>
+                <li>Bootstrap</li>
+              </ul>
+              <ul class="skills__experience">
+                <li>Material UI</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="skill-column">
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">Django</div>
-          </div>
-          <div class="skill">
-            <div class="skill__checkmark"><img src="icons/Checkmark.svg" /></div>
-            <div class="skill__type">JavaScript</div>
-          </div>
+      </section>
+      <section class="experience-section">
+        <div class="description">
+          <h2 class="description__h2">How I Stay Busy</h2>
+          <p class="description__p line-height muted margin20t">I'm always pursuing a new project or learning a new technology. Here is a few that I've spent some time on.</p>
         </div>
-    </section>
-
-    <!-- CONNECT -->
-    <section class="section section--connect">
-      <h2 class="section__title">CONNECT</h2>
-      <div class="icon-container">
-        <a class="icon" href="https://www.linkedin.com/in/eric-mahoney22/" target="_blank">
-          <span class="jam jam-linkedin">
-            <span class="hide-visually">link to view LinkedIn</span>
-          </span>
-        </a>
-        
-        <a class="icon" href="mailto:eric.mahoney22@gmail.com" target="_blank">
-          <span class="jam jam-envelope">
-            <span class="hide-visually">link to send an email to Eric Mahoney</span>
-          </span>
-        </a>
-        
-        <a class="icon" href="https://codepen.io/ericmahoney" target="_blank">
-          <span class="jam jam-codepen">
-            <span class="hide-visually">link to view codepen</span>
-          </span>
-        </a>
-
-        <a class="icon" href="https://github.com/eric-mahoney" target="_blank">
-          <span class="jam jam-github">
-            <span class="hide-visually">link to view github</span>
-          </span>
-        </a>
-
-        <a class="icon" href="https://gitlab.com/ericmahoney" target="_blank">
-          <span class="jam jam-gitlab">
-            <span class="hide-visually">link to view gitlab</span>
-          </span>
-        </a>
-      </div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
-    <script src="script.js"></script>
+        <div class="project-container">
+          <a href="https://github.com/eric-mahoney/glance" target="_blank" class="project card">
+            <img class="project__img" src="pictures/projects/glance.png"></img>
+            <div class="project__info">
+              <h3 class="project__name">GLANCE</h3>
+              <p class="project__description muted line-height">A user dashboard developed to give users the information they need at a glance.</p>
+              <ul class="project__tech">
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </a>
+          <a href="https://github.com/eric-mahoney/Shipper" target="_blank" class="project card">
+            <img class="project__img" src="pictures/projects/shipper.png"></img>
+            <div class="project__info">
+              <h3 class="project__name">Shipper</h3>
+              <p class="project__description muted line-height">An open-source order management system built for companies to easily handle the state of customer orders.</p>
+              <ul class="project__tech">
+                <li>Bootstrap</li>
+                <li>Django</li>
+              </ul>
+            </div>
+          </a>
+          <a href="https://gitlab.com/2bois/warzone-roulette" target="_blank" class="project card">
+            <img class="project__img" src="pictures/projects/warzoneroulette.png"></img>
+            <div class="project__info">
+              <h3 class="project__name">Warzone Roulette</h3>
+              <p class="project__description muted line-height">Community-sourced strategy web app for popular Call of Duty mode: Warzone. Developed to help players find more ways to have fun.</p>
+              <ul class="project__tech">
+                <li>Angular</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="footer">
+          <ul class="footer-links">
+            <li class="footer-link"><a href="https://codepen.io/ericmahoney" target="_blank">codepen</a></li>
+            <li class="footer-link"><a href="https://github.com/eric-mahoney" target="_blank">github</a></li>
+            <li class="footer-link"><a href="https://gitlab.com/ericmahoney" target="_blank">gitlab</a></li>
+            <li class="footer-link"><a href="https://www.linkedin.com/in/eric-mahoney22/" target="_blank">linkedin</a></li>
+          </ul>
+      </section>
+    </div>
+    <script src="script.js" async defer></script>
   </body>
 </html>
