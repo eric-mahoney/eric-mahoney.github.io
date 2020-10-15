@@ -64,8 +64,14 @@ body {
   line-height: 2em;
 }
 
+<<<<<<< HEAD
 .description__h2 {
   font-size: 25px;
+=======
+.section__title {
+  margin: 100px 0px;
+  font-size: 4em;
+>>>>>>> d491958eec433433c6a3149d6367eaa82ac6471d
 }
 
 .description__p {
@@ -242,6 +248,7 @@ PROJECTS
 
 /* footer
 
+<<<<<<< HEAD
 */
 
 .footer {
@@ -250,6 +257,12 @@ PROJECTS
   align-items: center;
   justify-content: flex-end;
   height: 100px;
+=======
+.icon-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0px;
+>>>>>>> d491958eec433433c6a3149d6367eaa82ac6471d
 }
 
 .footer-links {
