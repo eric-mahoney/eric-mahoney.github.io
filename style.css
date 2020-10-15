@@ -221,6 +221,7 @@ PROJECTS
 }
 
 .skills__experience {
+  margin: 0px 20px 0px 0px;
   list-style-type: none;
 }
 
@@ -315,6 +316,9 @@ PROJECTS
   .skills-column {
     width: 100%;
     margin: 20px 0px;
+  }
+  .skills__experience {
+    margin: 0;
   }
   .footer-links {
     width: 100%;
