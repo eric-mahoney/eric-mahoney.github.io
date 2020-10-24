@@ -9,7 +9,7 @@ function generateDice() {
   for (var i = 0; i < num; i++) {
     let newDice = document.createElement("div");
     let num = simDice();
-    newDice.innerHTML = `<img class="dice-img" src="/dice/dice-images/${num}.png">`;
+    newDice.innerHTML = `<img class="dice-img" alt="number ${num} dice" src="/dice/dice-images/${num}.png">`;
     newDice.classList.add("dice-roll");
     container.appendChild(newDice);
   }
