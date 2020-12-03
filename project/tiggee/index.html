@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tiggee Customer Satisfaction</title>
+    <meta name="description" content="Custom survey builder for Tiggee LLC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/project.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="navbar">
+      <nav><a class="underline" href="/">Return to Home</a></nav>
+    </div>
+    <div class="main-container">
+      <div class="introduction-container container">
+        <img class="intro-photo" src="screenshots/group.jpg" />
+        <div class="description">
+          <h2 class="description__h2 margin20t">Capstone Project for Tiggee LLC.</h2>
+          <p class="description__p line-height muted margin20t">
+            For IT 493, we partnered with local IT company <a class="underline" href="http://www.tiggee.com/" target="_blank">Tiggee</a> to build a custom survey builder and survey management web
+            application that would greatly increase the number of clients that they were able to retain month to month. This software would generate unique survey links for Tiggee to send to their
+            clients for feedback. Upon receiving a response from a client, this app will store this information in Tiggee's Customer Relationship Managment software (CRM).
+          </p>
+        </div>
+      </div>
+      <div class="impact-container container">
+        <div class="description">
+          <h2 class="description__h2">Impact of our Project</h2>
+        </div>
+        <ul class="skills__experience">
+          <li>80+ more clients retained month-to-month.</li>
+          <li>25% increase in trials memberships.</li>
+          <li>An estimated $150 saved per week from automating manual processes.</li>
+        </ul>
+      </div>
+      <div class="technology-container container">
+        <div class="description">
+          <h2 class="description__h2">Technologies Utilized</h2>
+          <p class="description__p line-height muted margin20t">
+            For this project, we knew that we had a shortened development time (4 months) along with other responsibilities (all of our members had full-time jobs and were also full-time students). As
+            a result, we went with a technology stack that all of the members were familiar with and would allow us to rapidly develop this project.
+          </p>
+        </div>
+        <ul class="skills__experience">
+          <li>Django</li>
+          <li>Bootstrap (CSS)</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+        </ul>
+      </div>
+      <div class="challenges-container container">
+        <div class="description">
+          <h2 class="description__h2">Challenges Overcome</h2>
+          <p class="description__p line-height muted margin20t">
+            The biggest problem we faced while developing this application was finding a way to store data from the Front-End to Django. Originally, the survey builder was built entirely using
+            JavaScript that dynamically added in new questions and changed question type similar to Google Forms. This approach proved to be difficult when trying to save the questions to the database
+            using Django Forms. As a result, we pivoted the page away from JavaScript and instead used buttons linked to Django Views that would allow us to add new questions to the database and then
+            re-render them on the page. This approach allowed us to easily save each survey to the database for the marketing team to send out to clients.
+          </p>
+        </div>
+      </div>
+      <div class="reflection-container container">
+        <div class="description">
+          <h2 class="description__h2">Post-Project Reflection</h2>
+          <p class="description__p line-height muted margin20t">/// reflection ///.</p>
+        </div>
+      </div>
+      <div class="demo-container container">
+        <div class="description">
+          <h2 class="description__h2">Tech Demo</h2>
+          <p class="description__p line-height muted margin20t">Here is a showcase of the features we built such as survey creation, survey management, account management, and more.</p>
+          <div class="embed-container"><iframe src="https://www.youtube.com/embed/2uHqp_VcQEE" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+      </div>
+      <div class="screenshots-container container">
+        <div class="description">
+          <h2 class="description__h2">Screenshots</h2>
+          <p class="description__p line-height muted margin20t">Here are some screenshots of the UI that I built for Tiggee. Click on a screenshot to view it in a new tab.</p>
+        </div>
+        <div class="screenshots-flex">
+          <a href="screenshots/homepage.png" target="_blank"><img class="screenshot" src="screenshots/homepage.png" /></a>
+          <a href="screenshots/manageaccounts.png" target="_blank"><img class="screenshot" src="screenshots/manageaccounts.png" /></a>
+          <a href="screenshots/surveylist.png" target="_blank"><img class="screenshot" src="screenshots/surveylist.png" /></a>
+          <a href="screenshots/surveymanagement.png" target="_blank"><img class="screenshot" src="screenshots/surveymanagement.png" /></a>
+          <a href="screenshots/surveysend.png" target="_blank"><img class="screenshot" src="screenshots/surveysend.png" /></a>
+          <a href="screenshots/surveysender.png" target="_blank"><img class="screenshot" src="screenshots/surveysender.png" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="../../animate.js" crossorigin="anonymous"></script>
+</html>
