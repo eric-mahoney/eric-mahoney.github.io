@@ -1,0 +1,45 @@
+.footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.footer-links {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.5s all;
+}
+
+.footer-link {
+  position: relative;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  transition: all 0.3s;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .footer-links {
+    width: 100%;
+  }
+}

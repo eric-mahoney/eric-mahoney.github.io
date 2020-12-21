@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.nav-links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.5s all;
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    width: 100%;
+  }
+}

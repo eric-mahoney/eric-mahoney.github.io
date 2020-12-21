@@ -1,0 +1,38 @@
+.picture {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.introduction {
+  margin: 0px 50px;
+}
+
+.image-true {
+  display: flex;
+  align-items: center;
+}
+
+.description__h2 {
+  font-size: 25px;
+}
+
+.description__p {
+  max-width: 600px;
+}
+
+@media (max-width: 800px) {
+  .picture {
+    width: 100%;
+    object-position: top;
+  }
+  .image-true {
+    display: block;
+  }
+  .introduction {
+    margin: 20px 0px;
+  }
+}
