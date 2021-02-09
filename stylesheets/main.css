@@ -72,6 +72,14 @@ p {
   line-height: 2em;
 }
 
+.section-intro {
+  margin: 20px 0px;
+}
+
+.section-title {
+  margin: 10px 0px;
+}
+
 /* 
 
 HEADER STYLES
@@ -160,7 +168,7 @@ HEADER STYLES
 .project {
   padding: 20px;
   width: 400px;
-  margin: 20px 20px 20px 0px;
+  margin: 10px 20px 10px 0px;
   transition: 0.5s all;
   border-radius: 5px;
   line-height: 150%;
@@ -188,6 +196,10 @@ HEADER STYLES
   margin: 0px 5px 0px 0px;
   color: var(--primary-black-lightest);
 }
+
+/* 
+    EDUCATION
+*/
 
 @media (max-width: 900px) {
   section {
