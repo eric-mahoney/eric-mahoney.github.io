@@ -1,0 +1,14 @@
+.main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project-list {
+  margin: 20px 0px;
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    width: 90%;
+  }
+}

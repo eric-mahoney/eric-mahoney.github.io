@@ -41,6 +41,19 @@ li {
   margin: 10px 0px;
 }
 
+.return {
+  text-decoration: none;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.svg-arrow {
+  width: 16px;
+  margin: 0px 15px;
+}
+
 .card {
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);

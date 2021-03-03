@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d4f6;
+  font-family: system-ui, sans-serif;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.return {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.svg-arrow {
+  width: 16px;
+  margin: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-y {
+  margin: 25px 0px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.page-header {
+  color: #06060c;
+}
+
+.page-description {
+  line-height: 150%;
+}
+
+.drum-btn {
+  height: 75px;
+  width: 120px;
+  display: grid;
+  grid-template-rows: 50px 25px;
+  color: #d0d4f6;
+  background-color: #06060c;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+}
+
+.drum-btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.drum-key {
+  font-size: 20px;
+  align-self: center;
+}
+
+.drum-type {
+  color: #6e6e9c;
+  align-self: center;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeline-btn {
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+}
+
+#listening {
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.start-btn {
+  background-color: #0179b7;
+}
+
+.stop-btn {
+  background-color: #64388c;
+}
+
+.play-btn {
+  background-color: #00914c;
+}
+
+.clear-btn {
+  background-color: #f02934;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
